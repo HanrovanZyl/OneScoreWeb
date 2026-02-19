@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneScore - Build Better Habits</title>
+    <style>
+        :root {
+            --primary: #34C759; /* Mint Green */
+            --background: #F2F2F7;
+            --card-bg: #FFFFFF;
+            --text-main: #000000;
+            --text-secondary: #8E8E93;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #000000;
+                --card-bg: #1C1C1E;
+                --text-main: #FFFFFF;
+                --text-secondary: #aaaaaa;
+            }
+            body { 
+                background-color: var(--background); 
+                color: var(--text-main); 
+            }
+        }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            line-height: 1.6; 
+            background-color: var(--background);
+            color: var(--text-main);
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 60px 0; }
+        h1 { font-size: 3rem; margin-bottom: 10px; color: var(--primary); }
+        h2 { border-bottom: 2px solid var(--primary); padding-bottom: 10px; margin-top: 40px; margin-bottom: 20px;}
+        h3 { margin-top: 25px; color: var(--text-secondary); }
+        p { margin-bottom: 15px; }
+        .card { 
+            background: var(--card-bg); 
+            padding: 30px; 
+            border-radius: 16px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+            margin-bottom: 30px; 
+        }
+        .btn { 
+            display: inline-block; 
+            background: var(--primary); 
+            color: white; 
+            padding: 14px 28px; 
+            border-radius: 100px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            margin-top: 20px; 
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        footer { text-align: center; margin-top: 50px; padding-bottom: 40px; color: var(--text-secondary); font-size: 0.9rem; }
+        
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>OneScore</h1>
+        <p>Build good habits, break bad ones, and track your progress with a single combined daily score.</p>
+        <a href="mailto:hanrovanzyl@outlook.com?subject=OneScore%20Feedback" class="btn">Send Feedback</a>
+    </header>
+
+    <div class="card" id="privacy">
+        <h2>Privacy Policy</h2>
+        <p><strong>Last Updated: February 19, 2026</strong></p>
+        <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
+        
+        <h3>1. Types of Data Collected</h3>
+        <p><strong>Personal Data:</strong> While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. This may include: Email address, First name and last name, Phone number.</p>
+        <p><strong>Usage Data:</strong> Usage Data is collected automatically when using the Service. Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+        <p><strong>Health Data:</strong> With your explicit permission, OneScore accesses Apple Health data to automatically track specific habits (e.g., Steps, Distance, Sleep). This data is processed locally on your device or securely synced to your private cloud database. We do not share or sell your health data.</p>
+
+        <h3>2. Use of Your Personal Data</h3>
+        <p>The Company may use Personal Data for the following purposes:
+        <ul>
+            <li><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</li>
+            <li><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service.</li>
+            <li><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication.</li>
+        </ul>
+        </p>
+
+        <h3>3. Retention of Your Personal Data</h3>
+        <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy.</p>
+        
+        <h3>4. Delete Your Personal Data</h3>
+        <p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You. Our Service gives You the ability to delete certain information about You from within the Service (Settings > Profile > Delete Account).</p>
+    </div>
+
+    <div class="card" id="terms">
+        <h2>Terms of Use (EULA)</h2>
+        <p>By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app.</p>
+        <p>You are not allowed to copy or modify the app, any part of the app, or our trademarks in any way. You are not allowed to attempt to extract the source code of the app, and you also shouldn't try to translate the app into other languages or make derivative versions.</p>
+        <p>OneScore is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.</p>
+        <p><strong>Health Disclaimer:</strong> The OneScore app is intended for informational and tracking purposes only. It is not a medical device and should not be used for diagnosis or treatment of any medical condition. Always consult with a qualified healthcare provider for any questions or concerns regarding your health.</p>
+        <p><strong>Changes to This Terms and Conditions:</strong> We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Inertia / OneScore. All rights reserved. <br>
+        <a href="mailto:hanrovanzyl@outlook.com">Contact Support</a>
+    </footer>
+</div>
+
+</body>
+</html>
